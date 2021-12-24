@@ -15,7 +15,7 @@ import torch.nn.functional as F
 import math
 
 
-from cifar_git import CIFAR100, MetaCIFAR100
+from cifar import CIFAR100, MetaCIFAR100
 
 
 
@@ -31,7 +31,7 @@ from sklearn.linear_model import LogisticRegression
 import statistics
 import time
 
-from resnet_git import resnet12
+from resnet import resnet12
 import torchvision.transforms as transforms
 from PIL import Image
 
